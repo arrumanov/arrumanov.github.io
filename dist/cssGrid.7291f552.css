@@ -1,0 +1,99 @@
+:root {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  --main-font: "Open Sans", "Helvetica", arial;
+  --main-bg-color: #fff;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.entry-title,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 1.612rem;
+  line-height: 1.2;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: var(--main-font);
+  margin: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: calc(0.5em + 1vw);
+  line-height: 1.6;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas: "header""main""footer";
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header;
+  background-color: var(--main-bg-color);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
+  padding: 10px;
+  overflow: hidden;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  background-color: var(--main-bg-color);
+}
+
+.site-header>.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.splide {
+  padding: 1em 3em;
+}
+
+.splide__pagination {
+  margin-bottom: -20px;
+}
+
+/*# sourceMappingURL=/cssGrid.7291f552.css.map */
