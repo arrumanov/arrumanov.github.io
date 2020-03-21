@@ -1,6 +1,8 @@
 const path = require("path");
 const fs = require("fs");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const {
+  CleanWebpackPlugin
+} = require("clean-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -38,12 +40,10 @@ const config = {
     ]
   },
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.(sass|scss)$/,
         include: path.resolve(__dirname, "src/scss"),
-        use: [
-          {
+        use: [{
             loader: MiniCssExtractPlugin.loader,
             options: {}
           },
@@ -92,8 +92,7 @@ const config = {
     new MiniCssExtractPlugin({
       filename: "./css/style.bundle.css"
     }),
-    new CopyWebpackPlugin([
-      {
+    new CopyWebpackPlugin([{
         from: "./src/fonts",
         to: "./fonts"
       },
@@ -106,6 +105,10 @@ const config = {
         to: "./img"
       },
       {
+        from: "./src/lib",
+        to: "./lib"
+      },
+      {
         from: "./src/uploads",
         to: "./uploads"
       }
@@ -114,6 +117,16 @@ const config = {
 };
 
 module.exports = (env, argv) => {
+  config.entry = {
+    'bundle-home': './src/js/home.js',
+    'bundle-second': './src/js/second.js',
+    'bundle-css': "./src/scss/style.scss"
+  };
+  config.output = {
+    // path: path.resolve('./dist/js'),
+    filename: './js/[name].js',
+  };
+
   if (argv.mode === "production") {
     config.plugins.push(new CleanWebpackPlugin());
   }

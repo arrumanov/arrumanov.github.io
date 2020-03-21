@@ -29,6 +29,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "@progress/kendo-ui": "^2020.1.219",
     "@splidejs/splide": "^2.2.1",
     "bootstrap": "^4.4.1",
     "browserify": "^16.5.0",
