@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <link rel="shortcut icon" href="favicon/favicon.ico" />
-    <link rel="stylesheet" href="css/style.bundle.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="lib/kendo/kendo.default-v2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.bundle.css" />
 
     <title>Второй заголовок | Проект</title>
   </head>
@@ -54,7 +55,57 @@
       </div>
     </header>
 
-    <div class="container">Вторая страница.</div>
+    <main class="grid__item">
+      <div class="main-content">
+        <h1>Tomato</h1>
+
+        <div class="data-price">
+          <h2>Price Rankings by Country of Tomato (1kg) (Markets)</h2>
+          <div id="grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bundle-second.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        $("#grid").kendoGrid({
+          dataSource: {
+            data: getTomatoesPrice,
+            schema: {
+              model: {
+                fields: {
+                  Country: {
+                    type: "string"
+                  },
+                  Price: {
+                    type: "number"
+                  }
+                }
+              }
+            },
+            pageSize: 20
+          },
+          height: 550,
+          scrollable: true,
+          sortable: true,
+          filterable: true,
+          pageable: {
+            input: true,
+            numeric: false
+          },
+          columns: [
+            "Country",
+            {
+              field: "Price",
+              title: "Price",
+              format: "{0:c}",
+              width: "130px"
+            }
+          ]
+        });
+      });
+    </script>
 
     <footer class="grid__item">
       <div class="wrap">
@@ -66,7 +117,5 @@
         <a href="#"><span class="k-icon k-i-email footer__icon"></span></a>
       </div>
     </footer>
-
-    <script src="js/bundle.js"></script>
   </body>
 </html>
