@@ -1,20 +1,48 @@
-import $ from "jquery";
+const $ = require('jquery');
 window.jQuery = $;
 window.$ = $;
 
-import "@progress/kendo-ui";
+require('@progress/kendo-ui');
 
-$(document).ready(function() {
-  $("#menu").kendoMenu();
+$('#menu').kendoMenu({
+  dataTextField: "text",
+  dataUrlField: "dataUrlField",
+  dataSource: [{
+      text: "Home",
+      dataUrlField: "index.html"
+    },
+    {
+      text: "Garden",
+      items: [{
+          text: "Fruit garden"
+        },
+        {
+          text: "Vegetable garden",
+          dataUrlField: "second.html"
+        },
+        {
+          text: "Seedlings"
+        },
+        {
+          text: "Seeds"
+        }
+      ]
+    },
+    {
+      text: "Blog"
+    },
+    {
+      text: "About"
+    }
+  ]
 });
 
 function printTomatoesPrice() {
   getTomatoesPrice().forEach(item => console.log(item));
 }
 
-window.getTomatoesPrice = function() {
-  return [
-    {
+window.getTomatoesPrice = function () {
+  return [{
       Country: "Japan",
       Price: 5.47
     },
@@ -424,3 +452,7 @@ window.getTomatoesPrice = function() {
     }
   ];
 };
+
+module.exports = {
+  myFoo: printTomatoesPrice
+}

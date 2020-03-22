@@ -125,6 +125,8 @@ module.exports = (env, argv) => {
   config.output = {
     // path: path.resolve('./dist/js'),
     filename: './js/[name].js',
+    libraryTarget: 'var',
+    library: 'araty'
   };
 
   if (argv.mode === "production") {
