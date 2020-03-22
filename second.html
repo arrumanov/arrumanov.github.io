@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" />
+    <!-- <link href="lib/kendo/kendo.default-v2.min.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="css/style.bundle.css" />
+
+    <title>Второй заголовок | Проект</title>
+  </head>
+
+  <body class="grid">
+    <header class="grid__item site-header">
+      <div class="wrap">
+        <div class="site-header__logo">
+          <a href="#" class="">
+            <span>Vol'nyye</span>
+            <span>Araty</span>
+          </a>
+        </div>
+        <nav id="megaStore">
+          <ul id="menu"></ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="grid__item">
+      <div class="main-content">
+        <h1>Tomato</h1>
+
+        <div class="data-price">
+          <h2>Price Rankings by Country of Tomato (1kg) (Markets)</h2>
+          <div id="grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/bundle-second.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        $("#grid").kendoGrid({
+          dataSource: {
+            data: getTomatoesPrice(),
+            schema: {
+              model: {
+                fields: {
+                  Country: {
+                    type: "string"
+                  },
+                  Price: {
+                    type: "number"
+                  }
+                }
+              }
+            },
+            pageSize: 20
+          },
+          height: 550,
+          scrollable: true,
+          sortable: true,
+          filterable: true,
+          pageable: {
+            input: true,
+            numeric: false
+          },
+          columns: [
+            "Country",
+            {
+              field: "Price",
+              title: "Price",
+              format: "{0:c}",
+              width: "130px"
+            }
+          ]
+        });
+      });
+    </script>
+
+    <footer class="grid__item">
+      <div class="wrap">
+        <span class="footer__full-name">
+          Иванов Иван Иванович
+        </span>
+        <a href="#"><span class="k-icon k-i-facebook footer__icon"></span></a>
+        <a href="#"><span class="k-icon k-i-google footer__icon"></span></a>
+        <a href="#"><span class="k-icon k-i-email footer__icon"></span></a>
+      </div>
+    </footer>
+  </body>
+</html>
