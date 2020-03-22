@@ -29,12 +29,14 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "@progress/kendo-theme-default": "^4.14.0",
     "@progress/kendo-ui": "^2020.1.219",
     "@splidejs/splide": "^2.2.1",
     "bootstrap": "^4.4.1",
     "browserify": "^16.5.0",
     "jquery": "^3.4.1",
     "kendo-ui-core": "^2020.1.219",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "priority-nav": "^1.0.13"
   }
 }

@@ -2,10 +2,10 @@ import $ from "jquery";
 window.jQuery = $;
 window.$ = $;
 
-import "@progress/kendo-ui";
+import "@progress/kendo-ui/js/kendo.menu.min.js";
 import Splide from "@splidejs/splide";
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var secondarySlider = new Splide("#secondary-slider", {
     fixedWidth: 100,
     height: 60,
@@ -32,6 +32,35 @@ document.addEventListener("DOMContentLoaded", function() {
   primarySlider.sync(secondarySlider).mount();
 });
 
-$(document).ready(function() {
-  $("#menu").kendoMenu();
+$("#menu").kendoMenu({
+  dataTextField: "text",
+  dataUrlField: "dataUrlField",
+  dataSource: [{
+      text: "Home",
+      dataUrlField: "index.html"
+    },
+    {
+      text: "Garden",
+      items: [{
+          text: "Fruit garden"
+        },
+        {
+          text: "Vegetable garden",
+          dataUrlField: "second.html"
+        },
+        {
+          text: "Seedlings"
+        },
+        {
+          text: "Seeds"
+        }
+      ]
+    },
+    {
+      text: "Blog"
+    },
+    {
+      text: "About"
+    }
+  ]
 });
