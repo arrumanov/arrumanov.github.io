@@ -537,7 +537,6 @@ D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\Razor\_Imports.razo
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.RazorTargetAssemblyInfo.cache
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.csproj.CopyComplete
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\blazor\unlinked.output
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\v9sbu9J5r7DNT6eiGR9WssR5rLpJKl66OLX31U0MnXw=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -589,13 +588,11 @@ D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\zNP4aHLW-
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\oAIlpv09S-0jXnze744E1V88Oaw8Ql1x3Alw0hsVYdw=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\dwm_rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs=.hash
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\LdZzfyWopLutLHbNtsSAWVmlSic9kw_DWtsxju5st70=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\oU0moF6IIkna1pMoSD6Ze63s6aHfjCtUflz7xDmENPg=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\2h0HpYTKnmLRgxP8dLbE565nf_AootL481ZA50GYj90=.hash
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\compressed\_framework\_bin\BlazorGitHubPages.dll.gz
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -716,3 +713,6 @@ D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\staticwebassets\Bla
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\staticwebassets\BlazorGitHubPages.StaticWebAssets.xml
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.dll
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.pdb
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\u1S4gVlZ__WiQcSxapMOqMOoXueNUD1HhwFKorAMqVk=.hash
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\mivBqKNj0v_5UrXhugPYUwMmvzmDLnBJMC1PZm-4wUs=.hash
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\s9yKHhajCFGa-mr6aMqT2Eo6VyzMlJYseY0sb1CnBPs=.hash
