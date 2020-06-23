@@ -1,0 +1,5 @@
+﻿<linker>
+  <assembly fullname="Blazor static site">
+    <type fullname="*" required="true" />
+  </assembly>
+</linker>
