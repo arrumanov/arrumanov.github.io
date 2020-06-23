@@ -1,5 +1,5 @@
 ﻿<linker>
-  <assembly fullname="Blazor static site">
+  <assembly fullname="BlazorGitHubPages">
     <type fullname="*" required="true" />
   </assembly>
 </linker>

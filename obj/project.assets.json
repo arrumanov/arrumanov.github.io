@@ -1457,11 +1457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Blazor static site\\Blazor static site.csproj",
-      "projectName": "Blazor static site",
-      "projectPath": "D:\\Blazor static site\\Blazor static site.csproj",
+      "projectUniqueName": "D:\\BlazorGitHub\\arrumanov.github.io\\BlazorGitHubPages.csproj",
+      "projectName": "BlazorGitHubPages",
+      "projectPath": "D:\\BlazorGitHub\\arrumanov.github.io\\BlazorGitHubPages.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Blazor static site\\obj\\",
+      "outputPath": "D:\\BlazorGitHub\\arrumanov.github.io\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

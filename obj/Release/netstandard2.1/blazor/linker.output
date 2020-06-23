@@ -1,4 +1,4 @@
-obj\Release\netstandard2.1\blazor\linker\Blazor static site.dll
+obj\Release\netstandard2.1\blazor\linker\BlazorGitHubPages.dll
 obj\Release\netstandard2.1\blazor\linker\Microsoft.AspNetCore.Components.dll
 obj\Release\netstandard2.1\blazor\linker\Microsoft.AspNetCore.Components.Web.dll
 obj\Release\netstandard2.1\blazor\linker\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -24,4 +24,4 @@ obj\Release\netstandard2.1\blazor\linker\System.Runtime.CompilerServices.Unsafe.
 obj\Release\netstandard2.1\blazor\linker\System.Text.Encodings.Web.dll
 obj\Release\netstandard2.1\blazor\linker\System.Text.Json.dll
 obj\Release\netstandard2.1\blazor\linker\WebAssembly.Bindings.dll
-obj\Release\netstandard2.1\blazor\linker\Blazor static site.pdb
+obj\Release\netstandard2.1\blazor\linker\BlazorGitHubPages.pdb
