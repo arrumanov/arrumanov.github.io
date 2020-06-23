@@ -1,8 +1,8 @@
-const $ = require('jquery');
+import $ from 'jquery';
 window.jQuery = $;
 window.$ = $;
 
-require('@progress/kendo-ui');
+import '@progress/kendo-ui';
 
 $('#menu').kendoMenu({
   dataTextField: "text",
@@ -453,6 +453,6 @@ window.getTomatoesPrice = function () {
   ];
 };
 
-module.exports = {
-  myFoo: printTomatoesPrice
+export {
+  printTomatoesPrice
 }

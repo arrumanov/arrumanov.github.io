@@ -2,8 +2,8 @@ const $ = require('jquery');
 window.jQuery = $;
 window.$ = $;
 
-require("@progress/kendo-ui/js/kendo.menu.min.js");
-const Splide = require("@splidejs/splide").default;
+import '@progress/kendo-ui/js/kendo.menu.min.js';
+import Splide from '@splidejs/splide';
 
 document.addEventListener("DOMContentLoaded", function () {
   var secondarySlider = new Splide("#secondary-slider", {
@@ -69,6 +69,6 @@ function blablabla() {
   console.log('blablabla');
 }
 
-module.exports = {
-  myFoo2: blablabla
+export {
+  blablabla
 }
