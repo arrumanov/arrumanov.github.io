@@ -713,6 +713,6 @@ D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\staticwebassets\Bla
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\staticwebassets\BlazorGitHubPages.StaticWebAssets.xml
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.dll
 D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\BlazorGitHubPages.pdb
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\7lQlOowDU9AHh1JxxhLAAR-kSDLbOqGZo9XqD-N_BI8=.hash
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\SPYd-mrR8yxO5FyCP94iCfrILdNO9r8IjY4MekX30bM=.hash
-D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\Mk4rFNXhs_6x_L9NzopsseZ_sbosQ05azA3j83or6MQ=.hash
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\MQtqFtebKjXLoEUt7Sk4bJ9l7Bz1prH8nKKyTinynW8=.hash
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\KPsIyDIeb9Unc3UnquPCmq9byPQGWAPYsjbIQOVILtY=.hash
+D:\BlazorGitHub\arrumanov.github.io\obj\Debug\netstandard2.1\integrity\7u0HFr9fNGKrb_IM5AW9jol-qgAlKC2yBEvOEPCMs1Y=.hash
